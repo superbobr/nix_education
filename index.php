@@ -44,7 +44,7 @@
 <nav>
     <a href="#home">Home</a>
     <a href="lesson1.php">Урок 1</a>
-    <a href="#lesson2">Урок 2</a>
+    <a href="lesson2.php">Урок 2</a>
 </nav>
 
 <main>
