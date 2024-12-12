@@ -55,7 +55,12 @@
                 for ($multiplier = 1; $multiplier <= 10; $multiplier++) {
                     $colorNum = colorForNumber($num);
                     $colorNumMul = colorForNumber($multiplier);
-                    echo "$colorNum x $colorNumMul = " . colorForNumber($num * $multiplier) . '<br>';
+                    $temp = (string)($num * $multiplier);
+                    $result = strlen($temp) < 2 ? colorForNumber($temp) : colorForNumber($temp[0]) . colorForNumber($temp[1]);
+                    if (strlen($temp) === 3) {
+                        $result = colorForNumber($temp[0]) . colorForNumber($temp[1]) . colorForNumber($temp[2]);
+                    }
+                    echo "$colorNum x $colorNumMul = " . $result . '<br>';
                 }
                 echo '</td>';
             }
