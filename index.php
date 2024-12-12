@@ -43,8 +43,8 @@
 
 <nav>
     <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="#lesson1">Урок 1</a>
+    <a href="#lesson2">Урок 2</a>
 </nav>
 
 <main>
